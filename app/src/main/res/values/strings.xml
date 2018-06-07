@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Get Social</string>
+    <string name="tab_text_1">Facebook</string>
+    <string name="tab_text_2">Instagram</string>
+    <string name="tab_text_3">Twitter</string>
+    <string name="tab_text_4">Quora</string>
+    <string name="tab_text_5">LinkedIn</string>
+    <string name="action_settings">Modify Apps</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_choose_apps">ChooseApps</string>
+</resources>

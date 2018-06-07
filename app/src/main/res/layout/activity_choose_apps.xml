@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    tools:context="justforfun.android.com.justforfun.ChooseApps"
+    android:id="@+id/layout1">
+
+        <CheckBox
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4075E5"
+            android:text="Facebook"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <CheckBox
+            android:id="@+id/instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E540A1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="Instagram"
+            android:textColor="@color/cardview_light_background"/>
+
+        <CheckBox
+            android:id="@+id/twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#A3CEFF"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="Twitter"
+            android:textColor="@color/cardview_light_background"/>
+
+        <CheckBox
+            android:id="@+id/quora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quora"
+            android:background="#C64E53"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <CheckBox
+            android:id="@+id/linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LinkedIn"
+            android:background="#4EA2C6"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <Button
+            android:id="@+id/cont"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Continue"
+            android:textSize="25dp"
+            android:background="#38A21B"
+            android:textColor="#fff">
+
+        </Button>
+</LinearLayout>
